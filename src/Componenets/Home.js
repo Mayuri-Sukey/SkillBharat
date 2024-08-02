@@ -3,6 +3,7 @@ import dropshiping from "../Assets/dropShiping.jpg"
 import digitalmarketing from "../Assets/digitalmarketing.webp"
 import DC from "../Assets/DtoC.webp"
 import zt from "../Assets/zth1.jpg"
+import { Link, NavLink } from 'react-router-dom'
 
 
 
@@ -93,18 +94,19 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
         </div>
       </div>
       </div>
-
+      <Link to='/form'>
       <div class="max-w-4xl mx-auto flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
       <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
      </p> 
+   
       <div class="max-md:mt-6">
         <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
           Get started
         </button>
       </div>
     </div>
-
+    </Link>
     {/* <div className="fixed inset-x-0 bottom-0 p-4">
   <div className="rounded-lg bg-indigo-600 px-4 py-3 text-white shadow-lg">
     <p className="text-center text-sm font-medium">
@@ -154,8 +156,8 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
             <img src={dropshiping} alt="Blog Post 1" class="w-full h-60 object-cover" />
             <div class="p-6">
               <span class="text-sm block text-gray-400 mb-2">10 FEB 2023 | BY JOHN DOE</span>
-              <h3 class="text-xl font-bold text-[#333]"> Learn Drop Shipping: Low Investment, High Returns
-</h3>
+              <Link to='/form'>    <h3 class="text-xl font-bold text-[#333]"> Learn Drop Shipping: Low Investment, High Returns
+</h3></Link>
               <hr class="my-6" />
               <p class="text-gray-400 text-sm">Discover the fundamentals of drop shipping, a business model that allows you to sell products without holding inventory, minimizing financial risk.</p>
             </div>
@@ -164,7 +166,7 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
             <img src={digitalmarketing} alt="Blog Post 2" class="w-full h-60 object-cover" />
             <div class="p-6">
               <span class="text-sm block text-gray-400 mb-2">7 JUN 2023 | BY MARK ADAIR</span>
-              <h3 class="text-xl font-bold text-[#333]">Mastering Digital Marketing: The Complete Guide </h3>
+              <Link to='/form'>   <h3 class="text-xl font-bold text-[#333]">Mastering Digital Marketing: The Complete Guide </h3></Link>
               <hr class="my-6" />
               <p class="text-gray-400 text-sm">A comprehensive course covering all aspects of digital marketing, including SEO, social media marketing, email marketing, content creation, and analytics to boost your online presence and drive business growth.</p>
             </div>
@@ -173,7 +175,7 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
             <img src={DC} alt="Blog Post 3" class="w-full h-60 object-cover" />
             <div class="p-6">
               <span class="text-sm block text-gray-400 mb-2">5 OCT 2023 | BY SIMON KONECKI</span>
-              <h3 class="text-xl font-bold text-[#333]"> Building a Direct-to-Consumer (D2C) Brand: A Complete Guide</h3>
+              <Link to='/form'> <h3 class="text-xl font-bold text-[#333]"> Building a Direct-to-Consumer (D2C) Brand: A Complete Guide</h3></Link>
               <hr class="my-6" />
               <p class="text-gray-400 text-sm"> Learn the essential steps to create, launch, and grow a successful D2C brand, focusing on product development, online marketing, and customer engagement strategies.</p>
             </div>
@@ -321,6 +323,8 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
     </div>
 
     {/* link box */}
+
+    <Link to='/form'>
     <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif] sm:mx-4" >
       <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
@@ -331,6 +335,7 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
         </button>
       </div>
     </div>
+    </Link>
 
     <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 mb-16">TIME IS RUNNING OUT.
 GRAB YOUR SPOT FAST</h2>
@@ -463,6 +468,8 @@ GRAB YOUR SPOT FAST</h2>
 {/* link section */}
 
 <h2 className="text-gray-800 text-2xl font-extrabold text-center mt-28 mb-4">REGISTER BEFORE MIDNIGHT OF July 30, 2024 to Unlock All Bonuses Worth Rs.10500</h2>
+
+<Link to='/form'>
 <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
       <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
@@ -473,6 +480,7 @@ GRAB YOUR SPOT FAST</h2>
         </button>
       </div>
     </div>
+    </Link>
 
 {/* FAQSS */}
 <section className='bg-[#f7f7f7]'>
@@ -600,16 +608,19 @@ GRAB YOUR SPOT FAST</h2>
 
 {/* link section */}
 <h2 className="text-gray-800 lg:text-2xl text-xl font-extrabold text-center mt-8 mb-4">SEE YOU INSIDE THE WORKSHOP 😃</h2>
+<Link to='/form'>
 <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
       <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
      </p> 
+     
       <div class="max-md:mt-3">
         <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
           Get started
         </button>
       </div>
     </div>
+    </Link>
     <p className="text-gray-800 text-xl font-extrabold text-center mt-6 pb-16">REGISTER BEFORE MIDNIGHT OF {registrationDeadline} to Unlock All Bonuses Worth Rs.10500</p>
 </section>   
 
