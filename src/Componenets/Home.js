@@ -4,6 +4,17 @@ import digitalmarketing from "../Assets/digitalmarketing.webp"
 import DC from "../Assets/DtoC.webp"
 import zt from "../Assets/zth1.jpg"
 import { Link, NavLink } from 'react-router-dom'
+import Timer from './Timer'
+import r1 from "../Assets/r1.jpg";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import "swiper/css/virtual";
+import "swiper/css/pagination";
+// Import Swiper styles
+import 'swiper/css';
+
+import { Autoplay, Pagination } from "swiper/modules";
+import Social from './Social'
+import LiveRegistration from './LiveRegistration'
 
 
 
@@ -19,8 +30,12 @@ const Home = () => {
     <>
 
 <section className="bg-gray-900 text-white">
-  <div className="mx-auto max-w-screen-xl px-4 pt-20 lg:flex  ">
+  <div className="mx-auto max-w-screen-xl px-4 pt-10 lg:flex  ">
     <div className="mx-auto  text-center">
+    <h1 className='bg-clip-text text-2xl font-extrabold  sm:text-4xl text-green-500 pb-10 blink'>
+  Learn & Earn
+</h1>
+
       <h1
         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-2xl font-extrabold text-transparent sm:text-4xl"
       >
@@ -47,15 +62,47 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
           Learn More
         </a>
       </div> */}
+
+       <LiveRegistration/>
+
     </div>
   </div>
 
 
   <div class="max-w-6xl mx-auto font-[sans-serif]">
-  <div class="mt-12 bg-gray-50 lg:p-10 p-6 rounded-md">
+  <div class="mt-10 bg-gray-50 lg:p-10 p-6 rounded-md">
         <div class="grid md:grid-cols-2 items-center gap-16 md:min-h-[340px]">
           <div>
-            <h3 class="text-gray-800 text-2xl font-bold mb-4">Join the Best</h3>
+            {/* <h3 class="text-gray-800 text-2xl font-bold mb-4">Register Now</h3> */}
+            <h3 class="text-gray-800 text-2xl font-bold mb-4 ">ऐक बार खुद को आजमाये
+</h3>
+     <Link to='/form'>   
+<button
+  class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-md group mb-6"
+>
+  <span
+    class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-indigo-700 rounded group-hover:-mr-4 group-hover:-mt-4"
+  >
+    <span
+      class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+    ></span>
+  </span>
+  <span
+    class="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-indigo-700 rounded group-hover:-ml-4 group-hover:-mb-4"
+  >
+    <span
+      class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"
+    ></span>
+  </span>
+  <span
+    class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-indigo-600 rounded-md group-hover:translate-x-0"
+  ></span>
+<span className="relative w-full text-left text-white text-lg lg:text-xl font-bold transition-colors duration-200 ease-in-out group-hover:text-white">
+  Register Now only at <span className="strikethrough ">&#8377;499</span><span className='text-green-400'>&nbsp;&#8377;99</span>
+</span>
+
+</button>
+</Link>    
             <p class="text-gray-600 text-sm text-justify">Learn from industry leaders, engage in practical projects, and enjoy flexible learning anytime, anywhere. Join our supportive community and master Digital Marketing, Dropshipping, and D2C Branding with expert-led courses.</p>
 
             <ul class="space-y-4 mt-8 text-justify">
@@ -96,15 +143,17 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
       </div>
       <Link to='/form'>
       <div class="max-w-4xl mx-auto flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
-      <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
+      <p class="text-white text-xl flex-1">Learn worth &#8377;49,000 in just &#8377;99 Only. Limited time deal.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
      </p> 
    
-      <div class="max-md:mt-6">
-        <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
+      {/* <div class="max-md:mt-6"> */}
+        {/* <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
           Get started
-        </button>
-      </div>
+        </button> */}
+       {/* </div> */}
+       <Timer/>
+
     </div>
     </Link>
     {/* <div className="fixed inset-x-0 bottom-0 p-4">
@@ -117,10 +166,16 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
 </div> */}
 <div className="mx-auto mt-12 max-w-7xl   text-center">
     <h2 className='lg:text-3xl sm:text-xl/relaxed px-2'>
-BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
+    We Help you to Start your own business within small budget.
 </h2>
 <h2></h2>
-<p className='lg:text-2xl sm:text-xl/relaxed pt-4 text-[#eab37e]'>#1 🇮🇳 We're highest rated program in the world </p>
+<p className="lg:text-2xl sm:text-xl/relaxed pt-4">
+  <span className="inline-block px-4 py-2 bg-[#eab210] text-black  shadow-lg border-2-[#eab210]">
+    We are ISO Certified Course in India
+  </span>
+</p>
+
+
 </div>
 
 <div class="max-w-5xl mx-auto flex justify-evenly md:items-center  bg-blue-600 px-8 mt-4 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
@@ -140,8 +195,181 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
       <p className='pt-2 text-yellow-500'>Attended</p></div>
       
     </div>
-    <h2 className='lg:text-3xl sm:text-xl/relaxed mt-8 pb-6 text-center'>Accelerate your career at price of less than a chai ☕!</h2>
+    <h2 className='lg:text-3xl sm:text-xl/relaxed mt-8 pb-6 text-center'>Only Course to Accelerate Your Knowledge and Growth!</h2>
 </section>
+
+{/* reviews section */}
+
+<section className="bg-white lg:mt-8">
+  <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+  <div class="text-center">
+          <h2 class="text-3xl font-extrabold text-[#333] inline-block relative after:absolute after:w-4/6 after:h-1 after:left-0 after:right-0 after:-bottom-4 after:mx-auto after:bg-pink-400 after:rounded-full">REVIEWS </h2>
+
+          
+        </div>
+
+        <p className=" text-center lg:text-2xl sm:text-xl/relaxed pt-8">
+  <span className="inline-block px-4 py-2 bg-white text-blue-600  shadow-lg border-2-[#eab210]">
+  What Our Students Say: Transforming Lives, One Success Story at a Time!
+  </span>
+</p>
+    
+
+<div className='mt-10 flex'>
+
+{/* <Swiper
+         slidesPerView={3}
+         loop={true}
+         autoplay={{
+           delay: 2000, // Delay between slides in milliseconds (5 seconds in this case)
+           disableOnInteraction: false,
+           reverseDirection: true,
+         }}
+         breakpoints={{
+           320: {
+             slidesPerView: 1,
+             spaceBetween: 5,
+           },
+           650: {
+             slidesPerView: 2,
+             spaceBetween: 5,
+           },
+           1023: {
+             slidesPerView: 3,
+             spaceBetween: 40,
+           },
+         }}
+         pagination={{
+           clickable: true,
+         }}
+         modules={[Autoplay, Pagination]}
+         className=""
+    >
+<SwiperSlide>
+<div class="w-full max-w-xl h-auto rounded  bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto">
+     
+     <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" /> 
+ 
+      
+     </div>
+          </SwiperSlide>     
+          
+          <SwiperSlide>
+<div class="w-full max-w-xl rounded h-auto  bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto">
+     
+     <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" /> 
+ 
+      
+     </div>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+<div class="w-full max-w-xl rounded h-auto bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto">
+     
+     <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" /> 
+ 
+      
+     </div>
+          </SwiperSlide>
+          <SwiperSlide>
+<div class="w-full max-w-xl rounded h-auto bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto">
+     
+     <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" /> 
+ 
+      
+     </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+<div class="w-full max-w-xl rounded h-auto bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto">
+     
+     <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" /> 
+ 
+      
+     </div>
+          </SwiperSlide>
+      ...
+    </Swiper> */}
+
+<Swiper
+        slidesPerView={3}
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true, // Add this line to pause on hover
+        }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          650: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1023: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Autoplay, Pagination]}
+        className="custom-swiper"
+      >
+        <SwiperSlide>
+          <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
+            <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" />
+          </div>
+        </SwiperSlide>
+        
+        <SwiperSlide>
+          <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
+            <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
+            <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
+            <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
+            <img src={r1} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" />
+          </div>
+        </SwiperSlide>
+      </Swiper>
+
+      <style jsx>{`
+        .custom-swiper {
+          padding-bottom: 50px; /* Add space for the pagination dots */
+        }
+   
+        .swiper-pagination {
+          position: relative;
+          top: 30px; /* Adjust this value to move pagination dots further down */
+        }
+
+      `}</style>
+
+
+</div>
+</div>
+
+</section>
+
+
+
 
 
 {/* courses section */}
@@ -195,7 +423,7 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
               <path d="M28.068 12h-.128a.934.934 0 0 1-.864-.6.924.924 0 0 1 .2-1.01l.091-.091a2.938 2.938 0 0 0 0-4.147l-1.511-1.51a2.935 2.935 0 0 0-4.146 0l-.091.091A.956.956 0 0 1 20 4.061v-.129A2.935 2.935 0 0 0 17.068 1h-2.136A2.935 2.935 0 0 0 12 3.932v.129a.956.956 0 0 1-1.614.668l-.086-.091a2.935 2.935 0 0 0-4.146 0l-1.516 1.51a2.938 2.938 0 0 0 0 4.147l.091.091a.935.935 0 0 1 .185 1.035.924.924 0 0 1-.854.579h-.128A2.935 2.935 0 0 0 1 14.932v2.136A2.935 2.935 0 0 0 3.932 20h.128a.934.934 0 0 1 .864.6.924.924 0 0 1-.2 1.01l-.091.091a2.938 2.938 0 0 0 0 4.147l1.51 1.509a2.934 2.934 0 0 0 4.147 0l.091-.091a.936.936 0 0 1 1.035-.185.922.922 0 0 1 .579.853v.129A2.935 2.935 0 0 0 14.932 31h2.136A2.935 2.935 0 0 0 20 28.068v-.129a.956.956 0 0 1 1.614-.668l.091.091a2.935 2.935 0 0 0 4.146 0l1.511-1.509a2.938 2.938 0 0 0 0-4.147l-.091-.091a.935.935 0 0 1-.185-1.035.924.924 0 0 1 .854-.58h.128A2.935 2.935 0 0 0 31 17.068v-2.136A2.935 2.935 0 0 0 28.068 12ZM29 17.068a.933.933 0 0 1-.932.932h-.128a2.956 2.956 0 0 0-2.083 5.028l.09.091a.934.934 0 0 1 0 1.319l-1.511 1.509a.932.932 0 0 1-1.318 0l-.09-.091A2.957 2.957 0 0 0 18 27.939v.129a.933.933 0 0 1-.932.932h-2.136a.933.933 0 0 1-.932-.932v-.129a2.951 2.951 0 0 0-5.028-2.082l-.091.091a.934.934 0 0 1-1.318 0l-1.51-1.509a.934.934 0 0 1 0-1.319l.091-.091A2.956 2.956 0 0 0 4.06 18h-.128A.933.933 0 0 1 3 17.068v-2.136A.933.933 0 0 1 3.932 14h.128a2.956 2.956 0 0 0 2.083-5.028l-.09-.091a.933.933 0 0 1 0-1.318l1.51-1.511a.932.932 0 0 1 1.318 0l.09.091A2.957 2.957 0 0 0 14 4.061v-.129A.933.933 0 0 1 14.932 3h2.136a.933.933 0 0 1 .932.932v.129a2.956 2.956 0 0 0 5.028 2.082l.091-.091a.932.932 0 0 1 1.318 0l1.51 1.511a.933.933 0 0 1 0 1.318l-.091.091A2.956 2.956 0 0 0 27.94 14h.128a.933.933 0 0 1 .932.932Z" data-original="#000000" />
               <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Expert Instructors</h3>
+            <h3 class="text-xl font-semibold mb-3">Expert Coach (over 10+ years of industry experience)</h3>
             <p class="text-gray-300 group-hover:text-gray-500 text-sm"> Learn from industry leaders and professionals with real-world experience and proven success in their fields.</p>
           </div>
 
@@ -211,8 +439,8 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
                 <path d="M178 271.894 233.894 216 334 316.105" data-original="#000000" />
               </g>
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Comprehensive Curriculum</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm"> Our courses cover everything you need to know, from the basics to advanced strategies, ensuring a thorough understanding of each topic.</p>
+            <h3 class="text-xl font-semibold mb-3">Short and Easy</h3>
+            <p class="text-gray-300 group-hover:text-gray-500 text-sm"> our course help you to understand easy and within limited period of time.</p>
           </div>
 
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
@@ -260,7 +488,7 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
                 <path d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30" data-original="#000000" />
               </g>
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Certification</h3>
+            <h3 class="text-xl font-semibold mb-3"> ISO Certification</h3>
             <p class="text-gray-300 group-hover:text-gray-500 text-sm">Receive a recognized certification upon completion of each course, boosting your credentials and enhancing your career opportunities.</p>
           </div>
         </div>
@@ -272,7 +500,7 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
 
     <div class="bg-[#F7F7F7] font-[sans-serif]">
       <div class="max-w-6xl mx-auto py-16 px-4">
-        <h2 class="text-gray-800 text-2xl lg:text-4xl font-extrabold text-center mb-16">Register before midnight {registrationDeadline} to Unlock All Bonuses Worth Rs.10500</h2>
+        <h2 class="text-gray-800 text-2xl lg:text-4xl font-extrabold text-center mb-16">Register within 15 minutes to unlock all freebies worth  &#8377;98,000</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-md:max-w-md mx-auto">
           <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all">
@@ -282,8 +510,8 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
                 <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
               </svg> */}
               <h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 1</h2>
-              <h3 class="text-green-600 text-xl font-semibold mb-3">Rs. 3500</h3>
-              <p class="text-gray-500 text-sm leading-relaxed">Tailor our product to suit your needs Tailor our product to suit your needs.</p>
+              <h3 class="text-green-600 text-xl font-semibold mb-3">Rs.30,000</h3>
+              <p class="text-gray-500 text-lg leading-relaxed"> industry Expert lecture worth &#8377;30,000.</p>
             </div>
           </div>
 
@@ -301,7 +529,9 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
                 </g>
               </svg> */}
 <h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 2</h2>
-              <h3 class="text-green-600 text-xl font-semibold mb-3">Rs.  2500</h3>              <p class="text-gray-500 text-sm leading-relaxed">Your data is protected by the latest security measures.</p>
+              <h3 class="text-green-600 text-xl font-semibold mb-3">Rs.  45,000</h3>              <p class="text-gray-500 text-lg leading-relaxed">Strategy and Analysis 
+Worth  &#8377;45,000
+.</p>
             </div>
           </div>
 
@@ -315,7 +545,9 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
                 </g>
               </svg> */}
 <h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 3</h2>
-              <h3 class="text-green-600 text-xl font-semibold mb-3">Rs. 2000</h3>              <p class="text-gray-500 text-sm leading-relaxed">Experience blazing-fast performance with our product.</p>
+              <h3 class="text-green-600 text-xl font-semibold mb-3">Rs. 23,000</h3>              <p class="text-gray-500 text-lg leading-relaxed">Market research 
+Worth  &#8377;23,000
+.</p>
             </div>
           </div>
         </div>
@@ -326,19 +558,18 @@ BONUSES WORTH RS. 10,500 IF YOU REGISTER BEFORE MIDNIGHT.
 
     <Link to='/form'>
     <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif] sm:mx-4" >
-      <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
+      <p class="text-white text-xl flex-1">Just start your own business learn and earn with easy steps with our industry expert.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
      </p> 
       <div class="max-md:mt-6">
         <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
-          Get started
+          Register Now
         </button>
       </div>
     </div>
     </Link>
 
-    <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 mb-16">TIME IS RUNNING OUT.
-GRAB YOUR SPOT FAST</h2>
+    <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 mb-16"> NOW OR NEVER. MOVE AND ACT FAST</h2>
 
 {/* mentor section */}
 
@@ -467,12 +698,17 @@ GRAB YOUR SPOT FAST</h2>
 
 {/* link section */}
 
-<h2 className="text-gray-800 text-2xl font-extrabold text-center mt-28 mb-4">REGISTER BEFORE MIDNIGHT OF July 30, 2024 to Unlock All Bonuses Worth Rs.10500</h2>
+{/* <h2 className="text-gray-800 text-2xl font-extrabold text-center mt-28 mb-4"> </h2> */}
+<p className="lg:text-2xl sm:text-xl/relaxed pt-4 mt-20 mb-4 text-center">
+  <span className="inline-block px-4 py-2 bg-[#eab210] text-black font-bold  shadow-lg border-2-[#eab210]">
+  WE HELP YOU TO EARN WITH MINIMUN INVESTMENT AND BASIC KNOWLEDGE
+  </span>
+</p>
 
-<Link to='/form'>
+{/* <Link to='/form'>
 <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
       <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
-       {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
+       Don’t miss this chance to elevate your skills and achieve your goals  !
      </p> 
       <div class="max-md:mt-6">
         <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
@@ -480,11 +716,11 @@ GRAB YOUR SPOT FAST</h2>
         </button>
       </div>
     </div>
-    </Link>
+    </Link> */}
 
 {/* FAQSS */}
 <section className='bg-[#f7f7f7]'>
-<div class="font-[sans-serif] divide-y rounded-lg max-w-7xl mx-auto px-4 py-12 mt-10 ">
+{/* <div class="font-[sans-serif] divide-y rounded-lg max-w-7xl mx-auto px-4 py-12 mt-10 ">
       <div class="mb-8">
         <h2 class="text-2xl font-bold text-gray-800 text-center">Frequently asked questions(FAQS)</h2>
         <p className='text-base pt-3 text-center'>We’ve tried our best to answer all common queries that you might have. For further queries, please email us at zeroToHero Academy</p>
@@ -604,25 +840,17 @@ GRAB YOUR SPOT FAST</h2>
     No, there is no age limit. I understand that technology might scare some people especially if you are elder & more experienced, however, the workshop will cover tools that you will easily be able to learn, master & use without really being a tech-expert or learning coding.   </p>
   </details>
 </div>
-</div>
+</div> */}
 
 {/* link section */}
-<h2 className="text-gray-800 lg:text-2xl text-xl font-extrabold text-center mt-8 mb-4">SEE YOU INSIDE THE WORKSHOP 😃</h2>
-<Link to='/form'>
-<div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
-      <p class="text-white text-xl flex-1">Unlock Your Potential with Our Exclusive Courses! Enjoy up to 50% off and start learning for just ₹2000.
-       {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
-     </p> 
-     
-      <div class="max-md:mt-3">
-        <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
-          Get started
-        </button>
-      </div>
-    </div>
-    </Link>
-    <p className="text-gray-800 text-xl font-extrabold text-center mt-6 pb-16">REGISTER BEFORE MIDNIGHT OF {registrationDeadline} to Unlock All Bonuses Worth Rs.10500</p>
+<Social/>
+
+<h2 className="text-gray-800 lg:text-2xl text-xl font-bold text-center mt-10 mb-4 pt-4">For Any Questions Please Call  <span className='text-blue-800'>9876543219</span> or email us at <span className='text-2xl text-blue-800'> zerotohero@gmail.com</span>  </h2>
+
+    <p className="text-gray-800 text-xl font-semibold text-center mt-6 pb-16">24*7 available and ready to help!</p>
 </section>   
+
+
 
 
     </>

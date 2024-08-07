@@ -66,7 +66,7 @@ Almost There! Complete Your Registration to Begin Your Journey!
         <form className="form" onSubmit={handleSubmit}>
       <p className="title">Register</p>
       <p className="message">Unlock Your Potential with Our Exclusive Courses!</p>
-      <div className="flex">
+      <div className="form-flex">
         <label>
           <input
             className="input"
