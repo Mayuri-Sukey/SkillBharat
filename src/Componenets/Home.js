@@ -15,7 +15,7 @@ import 'swiper/css';
 import { Autoplay, Pagination } from "swiper/modules";
 import Social from './Social'
 import LiveRegistration from './LiveRegistration'
-
+import certificate from "../Assets/certificate.webp"
 
 
 const getFormattedDate = (daysToAdd) => {
@@ -39,12 +39,14 @@ const Home = () => {
       <h1
         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-2xl font-extrabold text-transparent sm:text-4xl"
       >
-Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToHero Academy
+Master The Art Of Building Online Brand With Zerotoheroacadamy
         {/* <span className="sm:block"> Increase Conversion. </span> */}
       </h1>
 
       <p className="mx-auto mt-8 max-w-7xl sm:text-xl/relaxed ">
-     At ZeroToHero Academy, we empower you with the knowledge and skills needed to excel in the digital marketplace. Our comprehensive courses in Digital Marketing, Dropshipping, and D2C Branding are designed by industry experts to ensure you stay ahead of the curve. Whether you're a budding entrepreneur or an established business owner, our practical, hands-on training will equip you with the strategies to drive success and achieve your goals. Join us today and transform your passion into a thriving career!
+     {/* At ZeroToHero Academy, we empower you with the knowledge and skills needed to excel in the digital marketplace. Our comprehensive courses in Digital Marketing, Dropshipping, and D2C Branding are designed by industry experts to ensure you stay ahead of the curve. Whether you're a budding entrepreneur or an established business owner, our practical, hands-on training will equip you with the strategies to drive success and achieve your goals. Join us today and transform your passion into a thriving career! */}
+
+     What we Will Teach You In This 3 Hours Online Brand building Masterclass Will Not Just Help You to find hot trending products in your niche, But Also Help You Scale & Grow Any Business By Leveraging The Power Of Meta(Facebook and ) and Google Ads. It’s all possible by following my step-by-step Framework and Strategies!!!. Used by our 1100+ students.With Help of our AI POWERD framework you can easily build  7 figures online brand. we are giving you exact strategies which works and wich  are implemented by our 500+ community members, So dont miss to regester  for our master class !!!!!!
       </p>
 
       {/* <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -103,27 +105,33 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
 
 </button>
 </Link>    
-            <p class="text-gray-600 text-sm text-justify">Learn from industry leaders, engage in practical projects, and enjoy flexible learning anytime, anywhere. Join our supportive community and master Digital Marketing, Dropshipping, and D2C Branding with expert-led courses.</p>
+            <p class="text-gray-600 text-sm text-justify">You can find hot trending products Setup & Run Profitable Meta and goolgle Ads to sell Your Products or Services online without hiring Any Expensive Freelancer or Agency or Spending Lakhs of Rupees on trail and error.
+Using The Step by Step Systems that has helped my our students to build brand form 0 to 20 Crore in last 11 months .
+No Prior Business or Technical Knowledge Required!
+YES, It will be that Easy!</p>
 
             <ul class="space-y-4 mt-8 text-justify">
               <li class="flex items-center gap-3 text-sm text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-                   <span className='text-black'><strong>Expert-Led Courses</strong></span>  
+                   <span className='text-black'><strong>No Prior Knowledge required
+</strong></span>  
                    {/* Learn from industry leaders and Professionals. */}
                    </li>
               <li class="flex items-center gap-3 text-sm text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-           <span className='text-black font-bold'>Comprehensive Curriculum</span>
+           <span className='text-black font-bold'>Get mentored by a Facebook & Instagram Ads Expert who has managed more than INR 20 Cr in Ad spend.
+</span>
               </li>
               <li class="flex items-center gap-3 text-sm text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-<span className='text-black'><strong>Hands-On Training</strong></span>
+<span className='text-black'><strong>Increase your E-Commerce store ROI by 7x with proven ad strategies
+</strong></span>
  {/* Engage in practical exercises and real-life projects. */}
 
               </li>
@@ -131,7 +139,7 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-<span className='text-black'><strong>Flexible Learning</strong></span> 
+<span className='text-black'><strong>Take your business offline to online quickly & get customers from all around the world</strong></span> 
 {/* Access courses anytime, anywhere with our  platform. */}
 
               </li>
@@ -374,7 +382,7 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
 
 {/* courses section */}
 
-<div class="bg-white font-[sans-serif] my-10">
+{/* <div class="bg-white font-[sans-serif] my-10">
       <div class="max-w-7xl mx-auto">
         <div class="text-center">
           <h2 class="text-3xl font-extrabold text-[#333] inline-block relative after:absolute after:w-5/6 after:h-1 after:left-0 after:right-0 after:-bottom-4 after:mx-auto after:bg-pink-400 after:rounded-full">LATEST COURSES</h2>
@@ -410,21 +418,21 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
     {/* why choose us */}
 
     <div class="font-[sans-serif] bg-gradient-to-r from-purple-800 to-indigo-800 py-12 px-4">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-white sm:text-4xl text-2xl font-bold text-center mb-16">Why Choose US</h2>
+        <h2 class="text-white sm:text-4xl text-2xl font-bold text-center mb-16"> Here Is What you are going to learn...</h2>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 max-md:max-w-lg mx-auto">
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 mb-6 inline-block" viewBox="0 0 32 32">
               <path d="M28.068 12h-.128a.934.934 0 0 1-.864-.6.924.924 0 0 1 .2-1.01l.091-.091a2.938 2.938 0 0 0 0-4.147l-1.511-1.51a2.935 2.935 0 0 0-4.146 0l-.091.091A.956.956 0 0 1 20 4.061v-.129A2.935 2.935 0 0 0 17.068 1h-2.136A2.935 2.935 0 0 0 12 3.932v.129a.956.956 0 0 1-1.614.668l-.086-.091a2.935 2.935 0 0 0-4.146 0l-1.516 1.51a2.938 2.938 0 0 0 0 4.147l.091.091a.935.935 0 0 1 .185 1.035.924.924 0 0 1-.854.579h-.128A2.935 2.935 0 0 0 1 14.932v2.136A2.935 2.935 0 0 0 3.932 20h.128a.934.934 0 0 1 .864.6.924.924 0 0 1-.2 1.01l-.091.091a2.938 2.938 0 0 0 0 4.147l1.51 1.509a2.934 2.934 0 0 0 4.147 0l.091-.091a.936.936 0 0 1 1.035-.185.922.922 0 0 1 .579.853v.129A2.935 2.935 0 0 0 14.932 31h2.136A2.935 2.935 0 0 0 20 28.068v-.129a.956.956 0 0 1 1.614-.668l.091.091a2.935 2.935 0 0 0 4.146 0l1.511-1.509a2.938 2.938 0 0 0 0-4.147l-.091-.091a.935.935 0 0 1-.185-1.035.924.924 0 0 1 .854-.58h.128A2.935 2.935 0 0 0 31 17.068v-2.136A2.935 2.935 0 0 0 28.068 12ZM29 17.068a.933.933 0 0 1-.932.932h-.128a2.956 2.956 0 0 0-2.083 5.028l.09.091a.934.934 0 0 1 0 1.319l-1.511 1.509a.932.932 0 0 1-1.318 0l-.09-.091A2.957 2.957 0 0 0 18 27.939v.129a.933.933 0 0 1-.932.932h-2.136a.933.933 0 0 1-.932-.932v-.129a2.951 2.951 0 0 0-5.028-2.082l-.091.091a.934.934 0 0 1-1.318 0l-1.51-1.509a.934.934 0 0 1 0-1.319l.091-.091A2.956 2.956 0 0 0 4.06 18h-.128A.933.933 0 0 1 3 17.068v-2.136A.933.933 0 0 1 3.932 14h.128a2.956 2.956 0 0 0 2.083-5.028l-.09-.091a.933.933 0 0 1 0-1.318l1.51-1.511a.932.932 0 0 1 1.318 0l.09.091A2.957 2.957 0 0 0 14 4.061v-.129A.933.933 0 0 1 14.932 3h2.136a.933.933 0 0 1 .932.932v.129a2.956 2.956 0 0 0 5.028 2.082l.091-.091a.932.932 0 0 1 1.318 0l1.51 1.511a.933.933 0 0 1 0 1.318l-.091.091A2.956 2.956 0 0 0 27.94 14h.128a.933.933 0 0 1 .932.932Z" data-original="#000000" />
               <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Expert Coach (over 10+ years of industry experience)</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm"> Learn from industry leaders and professionals with real-world experience and proven success in their fields.</p>
+            <h3 class="text-xl font-semibold mb-3">Learn strategies from experts who have done in total 80cr+ in revenue with their online brands</h3>
+            {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm"> Learn from industry leaders and professionals with real-world experience and proven success in their fields.</p> */}
           </div>
 
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
@@ -439,16 +447,16 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
                 <path d="M178 271.894 233.894 216 334 316.105" data-original="#000000" />
               </g>
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Short and Easy</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm"> our course help you to understand easy and within limited period of time.</p>
+            <h3 class="text-xl font-semibold mb-3">Methods to find hot selling products that have potential of building 7 fig online brand</h3>
+            {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm"> our course help you to understand easy and within limited period of time.</p> */}
           </div>
 
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 mb-6 inline-block" viewBox="0 0 512.001 512.001">
               <path d="M271.029 0c-33.091 0-61 27.909-61 61s27.909 61 61 61 60-27.909 60-61-26.909-61-60-61zm66.592 122c-16.485 18.279-40.096 30-66.592 30-26.496 0-51.107-11.721-67.592-30-14.392 15.959-23.408 36.866-23.408 60v15c0 8.291 6.709 15 15 15h151c8.291 0 15-6.709 15-15v-15c0-23.134-9.016-44.041-23.408-60zM144.946 460.404 68.505 307.149c-7.381-14.799-25.345-20.834-40.162-13.493l-19.979 9.897c-7.439 3.689-10.466 12.73-6.753 20.156l90 180c3.701 7.423 12.704 10.377 20.083 6.738l19.722-9.771c14.875-7.368 20.938-25.417 13.53-40.272zM499.73 247.7c-12.301-9-29.401-7.2-39.6 3.9l-82 100.8c-5.7 6-16.5 9.6-22.2 9.6h-69.901c-8.401 0-15-6.599-15-15s6.599-15 15-15h60c16.5 0 30-13.5 30-30s-13.5-30-30-30h-78.6c-7.476 0-11.204-4.741-17.1-9.901-23.209-20.885-57.949-30.947-93.119-22.795-19.528 4.526-32.697 12.415-46.053 22.993l-.445-.361-21.696 19.094L174.28 452h171.749c28.2 0 55.201-13.5 72.001-36l87.999-126c9.9-13.201 7.2-32.399-6.299-42.3z" data-original="#000000" />
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Practical Approach</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm">Gain hands-on experience with practical exercises, real-world case studies, and actionable insights that you can apply immediately.</p>
+            <h3 class="text-xl font-semibold mb-3">How to use Meta ads(facebook and Instagram ads) to its max potential</h3>
+            {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm">Gain hands-on experience with practical exercises, real-world case studies, and actionable insights that you can apply immediately.</p> */}
           </div>
 
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
@@ -459,8 +467,8 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
                 <path d="M3.095 3.095C4.429 1.76 6.426 1.25 9 1.25h6c2.574 0 4.57.51 5.905 1.845C22.24 4.429 22.75 6.426 22.75 9v6c0 2.574-.51 4.57-1.845 5.905C19.571 22.24 17.574 22.75 15 22.75H9c-2.574 0-4.57-.51-5.905-1.845C1.76 19.571 1.25 17.574 1.25 15V9c0-2.574.51-4.57 1.845-5.905zm1.06 1.06C3.24 5.071 2.75 6.574 2.75 9v6c0 2.426.49 3.93 1.405 4.845.916.915 2.419 1.405 4.845 1.405h6c2.426 0 3.93-.49 4.845-1.405.915-.916 1.405-2.419 1.405-4.845V9c0-2.426-.49-3.93-1.405-4.845C18.929 3.24 17.426 2.75 15 2.75H9c-2.426 0-3.93.49-4.845 1.405z" data-original="#000000" />
               </g>
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Flexible Learning</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm">Enjoy lifetime access to course materials, allowing you to learn at your own pace and revisit content whenever you need.</p>
+            <h3 class="text-xl font-semibold mb-3">How to use google ads to build your online brand effectively</h3>
+            {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm">Enjoy lifetime access to course materials, allowing you to learn at your own pace and revisit content whenever you need.</p> */}
           </div>
 
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
@@ -473,8 +481,8 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
               <path d="M10.327 499.947a10.33 10.33 0 0 1-7.376-3.104 10.312 10.312 0 0 1-2.929-7.902l4.401-66.85c.372-5.697 5.191-10.036 10.986-9.633 5.692.377 10.005 5.294 9.628 10.986l-3.641 55.332 55.224-2.515c5.645-.191 10.531 4.153 10.79 9.85.258 5.697-4.153 10.526-9.85 10.79l-66.763 3.037c-.155.004-.31.009-.47.009zm465.639-13.01-57.708-57.708c-4.034-4.034-4.034-10.573 0-14.607s10.573-4.034 14.607 0l57.708 57.708c4.034 4.034 3.962 10.5 0 14.607-3.817 3.951-10.062 3.951-14.607 0z" data-original="#000000" />
               <path d="M494.359 499.947c-.155 0-.315-.005-.47-.01l-66.757-3.042c-5.702-.263-10.108-5.088-9.85-10.79.263-5.702 5.113-9.984 10.79-9.85l55.219 2.515-3.641-55.332c-.372-5.692 3.941-10.609 9.633-10.986 5.625-.398 10.609 3.946 10.986 9.633l4.401 66.85a10.33 10.33 0 0 1-2.929 7.902 10.323 10.323 0 0 1-7.382 3.11z" data-original="#000000" />
             </svg>
-            <h3 class="text-xl font-semibold mb-3">Supportive Community</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm">Join a community of like-minded learners and get support from instructors and peers through forums, live sessions, and Q&A.</p>
+            <h3 class="text-xl font-semibold mb-3"> How to use google ads to build your online brand effectively   </h3>
+            {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm">Join a community of like-minded learners and get support from instructors and peers through forums, live sessions, and Q&A.</p> */}
           </div>
 
           <div class="rounded-xl group p-8 text-center hover:bg-white text-white hover:text-purple-800 hover:shadow-xl transition duration-300">
@@ -488,10 +496,180 @@ Master the art of Digital Marketing, Dropshipping, and D2C Branding with ZeroToH
                 <path d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30" data-original="#000000" />
               </g>
             </svg>
-            <h3 class="text-xl font-semibold mb-3"> ISO Certification</h3>
-            <p class="text-gray-300 group-hover:text-gray-500 text-sm">Receive a recognized certification upon completion of each course, boosting your credentials and enhancing your career opportunities.</p>
+            <h3 class="text-xl font-semibold mb-3">Latest AI tools to build and scale your D2C brand</h3>
+            {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm">Receive a recognized certification upon completion of each course, boosting your credentials and enhancing your career opportunities.</p> */}
           </div>
         </div>
+      </div>
+    </div>
+
+
+    
+    {/* Features */}
+
+    <div class="max-w-6xl mx-auto font-[sans-serif] p-4 lg:my-16 my-8">
+      <div class="text-center max-w-6xl mx-auto">
+      <h2 class="text-gray-800 text-2xl lg:text-4xl font-extrabold text-center lg:mb-10 mb-6">The Masterclass is Specially Designed For Anyone Who Wants to Sell Products or Services</h2>
+        <p class="text-lg text-gray-600 mt-6">No Matter Which Industry You Are In. It Works Perfectly For​…</p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mt-16 max-md:max-w-lg mx-auto">
+        <div class="text-left">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-600 w-10 h-10 mb-6 inline-block bg-blue-100 p-2 rounded-md" viewBox="0 0 32 32">
+            <path d="M28.068 12h-.128a.934.934 0 0 1-.864-.6.924.924 0 0 1 .2-1.01l.091-.091a2.938 2.938 0 0 0 0-4.147l-1.511-1.51a2.935 2.935 0 0 0-4.146 0l-.091.091A.956.956 0 0 1 20 4.061v-.129A2.935 2.935 0 0 0 17.068 1h-2.136A2.935 2.935 0 0 0 12 3.932v.129a.956.956 0 0 1-1.614.668l-.086-.091a2.935 2.935 0 0 0-4.146 0l-1.516 1.51a2.938 2.938 0 0 0 0 4.147l.091.091a.935.935 0 0 1 .185 1.035.924.924 0 0 1-.854.579h-.128A2.935 2.935 0 0 0 1 14.932v2.136A2.935 2.935 0 0 0 3.932 20h.128a.934.934 0 0 1 .864.6.924.924 0 0 1-.2 1.01l-.091.091a2.938 2.938 0 0 0 0 4.147l1.51 1.509a2.934 2.934 0 0 0 4.147 0l.091-.091a.936.936 0 0 1 1.035-.185.922.922 0 0 1 .579.853v.129A2.935 2.935 0 0 0 14.932 31h2.136A2.935 2.935 0 0 0 20 28.068v-.129a.956.956 0 0 1 1.614-.668l.091.091a2.935 2.935 0 0 0 4.146 0l1.511-1.509a2.938 2.938 0 0 0 0-4.147l-.091-.091a.935.935 0 0 1-.185-1.035.924.924 0 0 1 .854-.58h.128A2.935 2.935 0 0 0 31 17.068v-2.136A2.935 2.935 0 0 0 28.068 12ZM29 17.068a.933.933 0 0 1-.932.932h-.128a2.956 2.956 0 0 0-2.083 5.028l.09.091a.934.934 0 0 1 0 1.319l-1.511 1.509a.932.932 0 0 1-1.318 0l-.09-.091A2.957 2.957 0 0 0 18 27.939v.129a.933.933 0 0 1-.932.932h-2.136a.933.933 0 0 1-.932-.932v-.129a2.951 2.951 0 0 0-5.028-2.082l-.091.091a.934.934 0 0 1-1.318 0l-1.51-1.509a.934.934 0 0 1 0-1.319l.091-.091A2.956 2.956 0 0 0 4.06 18h-.128A.933.933 0 0 1 3 17.068v-2.136A.933.933 0 0 1 3.932 14h.128a2.956 2.956 0 0 0 2.083-5.028l-.09-.091a.933.933 0 0 1 0-1.318l1.51-1.511a.932.932 0 0 1 1.318 0l.09.091A2.957 2.957 0 0 0 14 4.061v-.129A.933.933 0 0 1 14.932 3h2.136a.933.933 0 0 1 .932.932v.129a2.956 2.956 0 0 0 5.028 2.082l.091-.091a.932.932 0 0 1 1.318 0l1.51 1.511a.933.933 0 0 1 0 1.318l-.091.091A2.956 2.956 0 0 0 27.94 14h.128a.933.933 0 0 1 .932.932Z" data-original="#000000" />
+            <path d="M16 9a7 7 0 1 0 7 7 7.008 7.008 0 0 0-7-7Zm0 12a5 5 0 1 1 5-5 5.006 5.006 0 0 1-5 5Z" data-original="#000000" />
+          </svg> */}
+          {/* <h3 class="text-gray-800 text-xl font-semibold mb-3">Customization</h3>
+          <p class="text-gray-600 text-sm">Tailor our product to suit your needs.</p> */}
+          <ul class="space-y-3 lg:mt-6 mt-3">
+            <li class="flex items-center  text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Small Business Owners
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Coaches & Trainers
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Data Validation
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Security
+            </li>
+             
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Doctors / Dentists
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Makeup Artist
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="text-left">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 inline-block bg-blue-100 p-2 rounded-md" viewBox="0 0 682.667 682.667">
+            <defs>
+              <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                <path d="M0 512h512V0H0Z" data-original="#000000" />
+              </clipPath>
+            </defs>
+            <g fill="none" class="stroke-blue-600" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="40" clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+              <path d="M256 492 60 410.623v-98.925C60 183.674 137.469 68.38 256 20c118.53 48.38 196 163.674 196 291.698v98.925z" data-original="#000000" />
+              <path d="M178 271.894 233.894 216 334 316.105" data-original="#000000" />
+            </g>
+          </svg>
+          <h3 class="text-gray-800 text-xl font-semibold mb-3">Security</h3>
+          <p class="text-gray-600 text-sm">Your data is protected by the latest security measures.</p> */}
+          <ul class="space-y-3 mt-6">
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              E-commerce Store Owners
+            </li>
+            <li class="flex items-center  text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Agency Owners
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Entrepreneurs
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Digital Marketers 
+            </li>
+             
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+            Affiliate Marketers
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Social Media Marketers
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="text-left">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-600 w-10 h-10 mb-6 inline-block bg-blue-100 p-2 rounded-md" viewBox="0 0 512.001 512.001">
+            <path d="M271.029 0c-33.091 0-61 27.909-61 61s27.909 61 61 61 60-27.909 60-61-26.909-61-60-61zm66.592 122c-16.485 18.279-40.096 30-66.592 30-26.496 0-51.107-11.721-67.592-30-14.392 15.959-23.408 36.866-23.408 60v15c0 8.291 6.709 15 15 15h151c8.291 0 15-6.709 15-15v-15c0-23.134-9.016-44.041-23.408-60zM144.946 460.404 68.505 307.149c-7.381-14.799-25.345-20.834-40.162-13.493l-19.979 9.897c-7.439 3.689-10.466 12.73-6.753 20.156l90 180c3.701 7.423 12.704 10.377 20.083 6.738l19.722-9.771c14.875-7.368 20.938-25.417 13.53-40.272zM499.73 247.7c-12.301-9-29.401-7.2-39.6 3.9l-82 100.8c-5.7 6-16.5 9.6-22.2 9.6h-69.901c-8.401 0-15-6.599-15-15s6.599-15 15-15h60c16.5 0 30-13.5 30-30s-13.5-30-30-30h-78.6c-7.476 0-11.204-4.741-17.1-9.901-23.209-20.885-57.949-30.947-93.119-22.795-19.528 4.526-32.697 12.415-46.053 22.993l-.445-.361-21.696 19.094L174.28 452h171.749c28.2 0 55.201-13.5 72.001-36l87.999-126c9.9-13.201 7.2-32.399-6.299-42.3z" data-original="#000000" />
+          </svg> */}
+          {/* <h3 class="text-gray-800 text-xl font-semibold mb-3">Support</h3>
+          <p class="text-gray-600 text-sm">24/7 customer support for all your inquiries.</p> */}
+          <ul class="space-y-3 mt-6">
+          <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              B2B or B2C - Lead Generation
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Consultants
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Real Estate
+            </li>
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Starting a Business
+            </li>
+
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Freelancers
+            </li>
+
+            <li class="flex items-center text-base  text-gray-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" class="mr-4 bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
+                <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
+              </svg>
+              Self employed & Homemakers
+            </li>
+          </ul>
+        </div>
+
+
+
+       
       </div>
     </div>
 
@@ -552,11 +730,9 @@ Worth  &#8377;23,000
           </div>
         </div>
       </div>
-    </div>
 
-    {/* link box */}
-
-    <Link to='/form'>
+      {/* link */}
+      <Link to='/form'>
     <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif] sm:mx-4" >
       <p class="text-white text-xl flex-1">Just start your own business learn and earn with easy steps with our industry expert.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
@@ -568,12 +744,63 @@ Worth  &#8377;23,000
       </div>
     </div>
     </Link>
+    <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 pb-16"> NOW OR NEVER. MOVE AND ACT FAST</h2>
+    </div>
 
-    <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 mb-16"> NOW OR NEVER. MOVE AND ACT FAST</h2>
+    {/* link box */}
+
+    
+
+   
+
+    {/* certificate section */}
+
+    <section className='bg-[#ebeaf1]'>
+  <div className="mx-auto max-w-screen-xl px-4 pt-8 sm:px-6 sm:py-12 lg:px-8 lg:pt-16">
+    {/* <div className=" lg:gap-16">
+      <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+        <img
+          alt=""
+          src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+      </div>
+
+      <div className="lg:py-24">
+        <h2 className="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
+
+        <p className="mt-4 text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
+          eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
+          quidem quam repellat.
+        </p>
+
+        <a
+          href="#"
+          className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        >
+          Get Started Today
+        </a>
+      </div>
+    </div> */}
+
+<h2 class="text-[#306b9d] text-2xl lg:text-4xl font-extrabold text-center mb-6">
+
+Become a Certified Facebook & Instagram Ads Expert</h2>
+<p className='text-center lg:text-xl sm:text-xl/relaxed'><span class="inline-block px-4 py-2 bg-white text-black  shadow-lg border-2-[#eab210]">Yes! You will be certified by a <span className=''>ZeroToHero Academy</span>  which brings a lot of credibility to your certificate & your resume. </span></p>
+  </div>
+
+  <div className=' lg:mx-auto mx-4 lg:my-1 my-4 max-w-screen-xl  pb-8 sm:px-6 sm:pb-12 flex justify-center items-center '>
+    <img src={certificate}/>
+
+  </div>
+</section>
+
+
 
 {/* mentor section */}
 
-<div class="font-[sans-serif]">
+<div class="font-[sans-serif] mb-10">
     <div class="h-60 w-full bg-gradient-to-r from-yellow-300 via-red-500 to-purple-600"></div>
 
     <div class="max-w-5xl max-md:max-w-xl max-sm:max-w-sm mx-auto -mt-48 px-6">
@@ -695,6 +922,40 @@ Worth  &#8377;23,000
         </div>
     </div>
 </div>
+
+{/*  */}
+<section className='bg-[#ebeaf1] mt-6'>
+  <div className="mx-auto max-w-screen-xl px-4 pt-8 sm:px-6 sm:py-12 lg:px-8 lg:pt-16">
+  <h2 class="text-black text-2xl lg:text-4xl font-extrabold text-center mb-6">
+
+  DO YOU KNOW WHAT THE BEST PART IS ?</h2>
+<p className='text-center lg:text-2xl sm:text-xl/relaxed'><span class="inline-block px-4 py-2  text-black font-semibold ">You will learn A to Z of Facebook & Instagram Ads <span className='bg-[#eab210]'>Hands On Practice</span> so you can set up your own Campaign on Facebook & Instagram to grow any business in just 3 Hour. All of this, by Facebook & Instagram Ads Expert. </span></p>
+<p className="lg:text-3xl sm:text-xl/relaxed text-center">
+  <span className="inline-block px-4 py-2  text-[#170a65] font-bold ">
+  No Boring Theory! 100% Practical Learning!
+  </span>
+</p>
+<Link to='/form'>
+    <div class="max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif] sm:mx-4" >
+      <p class="text-white text-xl flex-1">Just start your own business learn and earn with easy steps with our industry expert.
+       {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
+     </p> 
+      <div class="max-md:mt-6">
+        <button type="button" class="bg-white text-[#EE4B85] font-semibold py-3 px-6 rounded text-sm hover:bg-slate-100 md:ml-6">
+          Register Now
+        </button>
+      </div>
+    </div>
+    </Link>
+
+    <p className='text-2xl font-bold text-center pt-2'>Register within 15 minutes to unlock all freebies worth  ₹98,000!</p>
+</div>
+</section>
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-5f9d7069 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f9d7069" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;shape_divider_bottom&quot;:&quot;triangle&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
+				
+					
+		</section>
 
 {/* link section */}
 
