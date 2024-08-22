@@ -32,9 +32,9 @@ const Home = () => {
 <section className="bg-gray-900 text-white">
   <div className="mx-auto max-w-screen-xl px-4 pt-10 lg:flex  ">
     <div className="mx-auto  text-center">
-    <h1 className='bg-clip-text text-2xl font-extrabold  sm:text-4xl text-green-500 pb-10 blink'>
+    {/* <h1 className='bg-clip-text text-2xl font-extrabold  sm:text-4xl text-green-500 pb-10 blink'>
   Learn & Earn
-</h1>
+</h1> */}
 
       <h1
         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-2xl font-extrabold text-transparent sm:text-4xl"
@@ -76,8 +76,8 @@ Master The Art Of Building Online Brand With Zerotoheroacadamy
         <div class="grid md:grid-cols-2 items-center gap-16 md:min-h-[340px]">
           <div>
             {/* <h3 class="text-gray-800 text-2xl font-bold mb-4">Register Now</h3> */}
-            <h3 class="text-gray-800 text-2xl font-bold mb-4 ">ऐक बार खुद को आजमाये
-</h3>
+            {/* <h3 class="text-gray-800 text-2xl font-bold mb-4 ">ऐक बार खुद को आजमाये
+</h3> */}
      <Link to='/form'>   
 <button
   class="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-500 rounded-md group mb-6"
@@ -151,7 +151,7 @@ YES, It will be that Easy!</p>
       </div>
       <Link to='/form'>
       <div class="max-w-4xl mx-auto flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
-      <p class="text-white text-xl flex-1">Learn worth &#8377;49,000 in just &#8377;99 Only. Limited time deal.
+      <p class="text-white text-xl flex-1">Register now and get bonus worth &#8377;10800.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
      </p> 
    
@@ -177,11 +177,11 @@ YES, It will be that Easy!</p>
     We Help you to Start your own business within small budget.
 </h2>
 <h2></h2>
-<p className="lg:text-2xl sm:text-xl/relaxed pt-4">
+{/* <p className="lg:text-2xl sm:text-xl/relaxed pt-4">
   <span className="inline-block px-4 py-2 bg-[#eab210] text-black  shadow-lg border-2-[#eab210]">
     We are ISO Certified Course in India
   </span>
-</p>
+</p> */}
 
 
 </div>
@@ -790,7 +790,7 @@ Become a Certified Facebook & Instagram Ads Expert</h2>
 <p className='text-center lg:text-xl sm:text-xl/relaxed'><span class="inline-block px-4 py-2 bg-white text-black  shadow-lg border-2-[#eab210]">Yes! You will be certified by a <span className=''>ZeroToHero Academy</span>  which brings a lot of credibility to your certificate & your resume. </span></p>
   </div>
 
-  <div className=' lg:mx-auto mx-4 lg:my-1 my-4 max-w-screen-xl  pb-8 sm:px-6 sm:pb-12 flex justify-center items-center '>
+  <div className=' lg:mx-auto mx-4 lg:my-0 my-4 max-w-screen-xl  pb-8 sm:px-6 sm:pb-12 flex justify-center items-center '>
     <img src={certificate}/>
 
   </div>
@@ -800,7 +800,7 @@ Become a Certified Facebook & Instagram Ads Expert</h2>
 
 {/* mentor section */}
 
-<div class="font-[sans-serif] mb-10">
+{/* <div class="font-[sans-serif] mb-10">
     <div class="h-60 w-full bg-gradient-to-r from-yellow-300 via-red-500 to-purple-600"></div>
 
     <div class="max-w-5xl max-md:max-w-xl max-sm:max-w-sm mx-auto -mt-48 px-6">
@@ -921,10 +921,10 @@ Become a Certified Facebook & Instagram Ads Expert</h2>
             </div>
         </div>
     </div>
-</div>
+</div> */}
 
 {/*  */}
-<section className='bg-[#ebeaf1] mt-6'>
+<section className='bg-[#ebeaf1] '>
   <div className="mx-auto max-w-screen-xl px-4 pt-8 sm:px-6 sm:py-12 lg:px-8 lg:pt-16">
   <h2 class="text-black text-2xl lg:text-4xl font-extrabold text-center mb-6">
 
