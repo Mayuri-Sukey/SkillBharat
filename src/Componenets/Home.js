@@ -11,6 +11,8 @@ import "swiper/css/virtual";
 import "swiper/css/pagination";
 // Import Swiper styles
 import 'swiper/css';
+import { MdDoubleArrow } from "react-icons/md";
+
 
 import { Autoplay, Pagination } from "swiper/modules";
 import Social from './Social'
@@ -66,6 +68,34 @@ Master The Art Of Building Online Brand With Zerotoheroacadamy
       </div> */}
 
        <LiveRegistration/>
+
+       {/* register button */}
+
+{/* <button class="uiverse">
+    <div class="wrapper">
+        <span className='text-black font-bold text-3xl'>Register Now !</span>
+        <div class="circle circle-12"></div>
+        <div class="circle circle-11"></div>
+        <div class="circle circle-10"></div>
+        <div class="circle circle-9"></div>
+        <div class="circle circle-8"></div>
+        <div class="circle circle-7"></div>
+        <div class="circle circle-6"></div>
+        <div class="circle circle-5"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-1"></div>
+    </div>
+</button> */}
+
+<Link to="/form">
+<div>
+    <button class="registration_btn mt-4"><i class="animation"></i> <MdDoubleArrow className='text-red-600 font-bold text-4xl'/>  &nbsp;&nbsp;&nbsp; Register Now<i class="animation"></i>
+    </button>
+</div>
+</Link>
+
 
     </div>
   </div>
@@ -151,7 +181,7 @@ YES, It will be that Easy!</p>
       </div>
       <Link to='/form'>
       <div class="max-w-4xl mx-auto flex md:items-center max-md:flex-col bg-[#EE4B85] hover:scale-95 px-8 mt-8 py-4 min-h-[100px] rounded-xl shadow-xl font-[sans-serif]">
-      <p class="text-white text-xl flex-1">Register now and get bonus worth &#8377;10800.
+      <p class="text-white text-xl flex-1">Register now and get bonuses worth &#8377;10800.
        {/* Don’t miss this chance to elevate your skills and achieve your goals  !*/}
      </p> 
    
@@ -182,6 +212,14 @@ YES, It will be that Easy!</p>
     We are ISO Certified Course in India
   </span>
 </p> */}
+
+{/* register now button */}
+<Link to="/form">
+<div>
+    <button class="registration_btn mt-4"><i class="animation"></i> <MdDoubleArrow className='text-red-600 font-bold text-4xl'/>  &nbsp;&nbsp;&nbsp; Register Now<i class="animation"></i>
+    </button>
+</div>
+</Link>
 
 
 </div>
@@ -503,11 +541,21 @@ YES, It will be that Easy!</p>
       </div>
     </div>
 
-
+{/* register button */}
+<Link to="/form">
+  <div className="button-container mt-12">
+    <button className="registration_btn">
+      <i className="animation"></i>
+      <MdDoubleArrow className='text-red-600 font-bold text-4xl'/>
+      &nbsp;&nbsp;&nbsp; Register Now
+      <i className="animation"></i>
+    </button>
+  </div>
+</Link>
     
     {/* Features */}
 
-    <div class="max-w-6xl mx-auto font-[sans-serif] p-4 lg:my-16 my-8">
+    <div class="max-w-6xl mx-auto font-[sans-serif] p-4  my-8">
       <div class="text-center max-w-6xl mx-auto">
       <h2 class="text-gray-800 text-2xl lg:text-4xl font-extrabold text-center lg:mb-10 mb-6">The Masterclass is Specially Designed For Anyone Who Wants to Sell Products or Services</h2>
         <p class="text-lg text-gray-600 mt-6">No Matter Which Industry You Are In. It Works Perfectly For​…</p>
@@ -744,7 +792,18 @@ Worth  &#8377;23,000
       </div>
     </div>
     </Link>
-    <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 pb-16"> NOW OR NEVER. MOVE AND ACT FAST</h2>
+    <h2 className="text-gray-800 lg:text-3xl  text-2xl font-extrabold text-center mt-6 "> NOW OR NEVER. MOVE AND ACT FAST</h2>
+
+    <Link to="/form">
+  <div className="button-container mt-6 pb-4 ">
+    <button className="registration_btn">
+      <i className="animation"></i>
+      <MdDoubleArrow className='text-red-600 font-bold text-4xl'/>
+      &nbsp;&nbsp;&nbsp; Register Now
+      <i className="animation"></i>
+    </button>
+  </div>
+</Link>
     </div>
 
     {/* link box */}
@@ -790,7 +849,7 @@ Become a Certified Facebook & Instagram Ads Expert</h2>
 <p className='text-center lg:text-xl sm:text-xl/relaxed'><span class="inline-block px-4 py-2 bg-white text-black  shadow-lg border-2-[#eab210]">Yes! You will be certified by a <span className=''>ZeroToHero Academy</span>  which brings a lot of credibility to your certificate & your resume. </span></p>
   </div>
 
-  <div className=' lg:mx-auto mx-4 lg:my-0 my-4 max-w-screen-xl  pb-8 sm:px-6 sm:pb-12 flex justify-center items-center '>
+  <div className=' lg:mx-auto mx-4 lg:my-0  max-w-screen-xl  pb-8 sm:px-6 sm:pb-12 flex justify-center items-center '>
     <img src={certificate}/>
 
   </div>
@@ -958,9 +1017,20 @@ Become a Certified Facebook & Instagram Ads Expert</h2>
 		</section>
 
 {/* link section */}
+<Link to="/form">
+  <div className="button-container mt-12">
+    <button className="registration_btn">
+      <i className="animation"></i>
+      <MdDoubleArrow className='text-red-600 font-bold text-4xl'/>
+      &nbsp;&nbsp;&nbsp; Register Now
+      <i className="animation"></i>
+    </button>
+  </div>
+</Link>
+
 
 {/* <h2 className="text-gray-800 text-2xl font-extrabold text-center mt-28 mb-4"> </h2> */}
-<p className="lg:text-2xl sm:text-xl/relaxed pt-4 mt-20 mb-4 text-center">
+<p className="lg:text-2xl sm:text-xl/relaxed pt-4  mb-4 text-center">
   <span className="inline-block px-4 py-2 bg-[#eab210] text-black font-bold  shadow-lg border-2-[#eab210]">
   WE HELP YOU TO EARN WITH MINIMUN INVESTMENT AND BASIC KNOWLEDGE
   </span>
