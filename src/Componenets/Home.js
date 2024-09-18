@@ -1040,7 +1040,7 @@ Worth  &#8377;23,000
                   <path d="M3.095 3.095C4.429 1.76 6.426 1.25 9 1.25h6c2.574 0 4.57.51 5.905 1.845C22.24 4.429 22.75 6.426 22.75 9v6c0 2.574-.51 4.57-1.845 5.905C19.571 22.24 17.574 22.75 15 22.75H9c-2.574 0-4.57-.51-5.905-1.845C1.76 19.571 1.25 17.574 1.25 15V9c0-2.574.51-4.57 1.845-5.905zm1.06 1.06C3.24 5.071 2.75 6.574 2.75 9v6c0 2.426.49 3.93 1.405 4.845.916.915 2.419 1.405 4.845 1.405h6c2.426 0 3.93-.49 4.845-1.405.915-.916 1.405-2.419 1.405-4.845V9c0-2.426-.49-3.93-1.405-4.845C18.929 3.24 17.426 2.75 15 2.75H9c-2.426 0-3.93.49-4.845 1.405z" data-original="#000000" />
                 </g>
               </svg> */}
-<h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 3</h2>
+<h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 4</h2>
               <h3 class="text-green-600 text-xl font-semibold mb-3">Rs. 23,000</h3>              <p class="text-gray-500 text-lg leading-relaxed">Market research tool
 Worth  &#8377;23,000
 .</p>
@@ -1056,7 +1056,7 @@ Worth  &#8377;23,000
                   <path d="M3.095 3.095C4.429 1.76 6.426 1.25 9 1.25h6c2.574 0 4.57.51 5.905 1.845C22.24 4.429 22.75 6.426 22.75 9v6c0 2.574-.51 4.57-1.845 5.905C19.571 22.24 17.574 22.75 15 22.75H9c-2.574 0-4.57-.51-5.905-1.845C1.76 19.571 1.25 17.574 1.25 15V9c0-2.574.51-4.57 1.845-5.905zm1.06 1.06C3.24 5.071 2.75 6.574 2.75 9v6c0 2.426.49 3.93 1.405 4.845.916.915 2.419 1.405 4.845 1.405h6c2.426 0 3.93-.49 4.845-1.405.915-.916 1.405-2.419 1.405-4.845V9c0-2.426-.49-3.93-1.405-4.845C18.929 3.24 17.426 2.75 15 2.75H9c-2.426 0-3.93.49-4.845 1.405z" data-original="#000000" />
                 </g>
               </svg> */}
-<h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 3</h2>
+<h2 className='text-2xl text-center text-blue-600 mb-6'>Bonus 5</h2>
               <h3 class="text-green-600 text-xl font-semibold mb-3">Rs. 23,000</h3>              <p class="text-gray-500 text-lg leading-relaxed">Market research tool
 Worth  &#8377;23,000
 .</p>
@@ -1139,7 +1139,7 @@ Become a Certified Dropshipping Expert</h2>
   </div>
 
   <div className=' lg:mx-auto mx-4 lg:my-0  max-w-screen-xl  pb-8 sm:px-6 sm:pb-12 flex justify-center items-center '>
-    <img src={certificate} className="w-2/3 shadow-xl"/>
+    <img src={certificate} className="lg:w-2/3 w-full shadow-xl mt-4 lg:mt-0"/>
 
   </div>
 </section>
