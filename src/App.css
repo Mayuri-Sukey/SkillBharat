@@ -371,6 +371,7 @@
 .registration-button {
   background: transparent;
   color: white;
+  /* color: #e21bda; */
   font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
@@ -394,8 +395,8 @@
   border-radius: 10px;
   background: linear-gradient(
     320deg,
-    rgba(244, 76, 10, 0.678),
-    rgba(238, 106, 5, 0.308)
+    rgb(30 40 228 / 68%),
+    rgba(137, 176, 227, 0.308)
   );
   z-index: 1;
   transition: background 3s;
@@ -859,6 +860,66 @@
 .register_box:hover {
   animation: shake 0.5s ease-in-out;
 }
+
+
+/* button-live */
+/* From Uiverse.io by Smit-Prajapati */ 
+.button-live {
+  /* in scss with just one variable i can change opacity with rgba(variable, opacity) but in css it's not possible so i have used three seperate variables */
+  /* with hue-rotate color can be changed */
+  /* --main-color: rgb(46, 213, 115);
+  --main-bg-color: rgba(46, 213, 116, 0.36);
+  --pattern-color: rgba(46, 213, 116, 0.073); */
+  --main-color: rgb(68 130 226);
+    --main-bg-color: rgb(61 46 213 / 36%);
+    --pattern-color: rgb(46 111 213 / 7%);
+
+  /* change this rotation value */
+  filter: hue-rotate(0deg);
+
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  background: radial-gradient(
+      circle,
+      var(--main-bg-color) 0%,
+      rgba(0, 0, 0, 0) 95%
+    ),
+    linear-gradient(var(--pattern-color) 1px, transparent 1px),
+    linear-gradient(to right, var(--pattern-color) 1px, transparent 1px);
+  background-size:
+    cover,
+    15px 15px,
+    15px 15px;
+  background-position:
+    center center,
+    center center,
+    center center;
+  border-image: radial-gradient(
+      circle,
+      var(--main-color) 0%,
+      rgba(0, 0, 0, 0) 100%
+    )
+    1;
+  border-width: 1px 0 1px 0;
+  color: var(--main-color);
+  padding: 1rem 3rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: background-size 0.2s ease-in-out;
+  margin-top: 30px;
+}
+
+.button-live:hover {
+  background-size:
+    cover,
+    10px 10px,
+    10px 10px;
+}
+.button-live:active {
+  filter: hue-rotate(250deg);
+}
+
 
 
 /* From Uiverse.io by cssbuttons-io */ 

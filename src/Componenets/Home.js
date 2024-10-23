@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+
 import dropshiping from "../Assets/dropShiping.jpg"
 import digitalmarketing from "../Assets/digitalmarketing.webp"
 import DC from "../Assets/DtoC.webp"
@@ -67,9 +68,26 @@ const Home = () => {
     { id: 18, feature: "Self employed & Homemakers" }
   ];
   
-
-
   const registrationDeadline = getFormattedDate(0);
+
+// upcoming sunday date
+  const [upcomingSunday, setUpcomingSunday] = useState('');
+  useEffect(() => {
+    const getNextSunday = () => {
+      const today = new Date();
+      const dayOfWeek = today.getDay();
+      const daysUntilSunday = 7 - dayOfWeek; // Calculate days to Sunday
+      const nextSunday = new Date(today);
+      nextSunday.setDate(today.getDate() + daysUntilSunday); // Set next Sunday date
+
+      const options = {  month: 'long', day: 'numeric' }; // Format options
+      return nextSunday.toLocaleDateString(undefined, options); // Format the date
+    };
+
+    setUpcomingSunday(getNextSunday()); // Set the date to state
+  }, []);
+
+
   return (
     <>
 
@@ -205,7 +223,7 @@ YES, It will be that Easy!</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-                   <span className='text-black'>No Prior Knowledge required
+                   <span className='text-gray-600 text-sm '>No prior knowledge required
 </span>  
                    {/* Learn from industry leaders and Professionals. */}
                    </li>
@@ -213,14 +231,14 @@ YES, It will be that Easy!</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-           <span className='text-black '>Get mentored by a Facebook & Instagram Ads Expert who has managed more than INR 20 Cr in Ad spend.
+           <span className='text-gray-600 text-sm '>Get mentored by a Facebook & Instagram ads expert who has managed more than INR 20 Cr in ad spend.
 </span>
               </li>
               <li class="flex items-center gap-3 text-sm text-gray-600">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-<span className='text-black'>Increase your E-Commerce store ROI by 7x with proven ad strategies
+<span className='text-gray-600 text-sm'>Increase your e-commerce store ROI by 7x with proven ad strategies
 </span>
  {/* Engage in practical exercises and real-life projects. */}
 
@@ -229,7 +247,7 @@ YES, It will be that Easy!</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" class="bg-blue-500 fill-white rounded-full p-[3px]" viewBox="0 0 24 24">
                   <path d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z" data-original="#000000" />
                 </svg>
-<span className='text-black'>Take your business offline to online quickly & get customers from all around the world</span> 
+<span className='text-gray-600 text-sm'>Take your business offline to online quickly & get customers from all around the world</span> 
 {/* Access courses anytime, anywhere with our  platform. */}
 
               </li>
@@ -256,9 +274,9 @@ YES, It will be that Easy!</p>
           Get started
         </button> */}
       {/* </div> */}
-      <div className=''><h2 className='lg:text-2xl sm:text-xl/relaxed'>22nd Aug, Thursday</h2>
+      <div className=''><h2 className='lg:text-2xl sm:text-xl/relaxed'>{upcomingSunday}, Sunday</h2>
       <p className='pt-2 text-white'>Date</p></div>
-      <div className=''><h2 className='lg:text-2xl sm:text-xl/relaxed'>7 PM Onwards</h2>
+      <div className=''><h2 className='lg:text-2xl sm:text-xl/relaxed'>11 PM Onwards</h2>
       <p className='pt-2 text-white'>TIME</p></div>
       <div className=''><h2 className='lg:text-2xl sm:text-xl/relaxed'>Bonuses</h2>
       <p className='pt-2 text-white'>Worth Rs 16,500 for Free</p></div>
@@ -521,7 +539,7 @@ YES, It will be that Easy!</p>
 {/* Reward Section */}
 
 <section className="bg-white ">
-  <div className="mx-auto max-w-screen-2xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-16">
+  <div className="mx-auto max-w-screen-2xl px-4 pb-1 sm:px-6 lg:px-8 lg:pb-4">
   <div class="text-center">
           <h2 class="text-3xl font-extrabold text-[#333] inline-block relative after:absolute after:w-4/6 after:h-1 after:left-0 after:right-0 after:-bottom-4 after:mx-auto after:bg-pink-400 after:rounded-full">HERE IS  PROOF </h2>
 
@@ -583,9 +601,9 @@ YES, It will be that Easy!</p>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
+        <div className="w-full max-w-xl h-auto rounded bg-gray-800 shadow-[0_6px_24px_-12px_rgba(0,0,0,0.2)] mx-auto mb-8"> {/* Adjusted margin-bottom */}
             <img src={p4} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="description" />
-          </div>
+        </div>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -624,7 +642,19 @@ YES, It will be that Easy!</p>
 </section>
 
 
-
+<Link to='/form'>
+  <div className="register_box max-w-4xl lg:mx-auto mx-2 flex md:items-center max-md:flex-col hover:scale-95 px-8 mt-2 mb-4 py-4 min-h-[100px] rounded-sm shadow-xl font-[sans-serif] sm:mx-4 shake-animation">
+    <MdDoubleArrow className='text-red-600 font-bold text-6xl'/>
+    <p className="text-black text-2xl flex-1 ml-4 font-bold">
+      RESERVE MY SPOT FOR DROPSHIPPING MASTER CLASS
+    </p>
+    <div className="max-md:mt-6">
+      <button type="button" className="bg-white text-red-600 font-bold py-3 px-6 rounded text-2xl hover:bg-slate-100 md:ml-6">
+        REGISTER NOW
+      </button>
+    </div>
+  </div>
+</Link>
 
 {/* courses section */}
 
@@ -739,8 +769,8 @@ YES, It will be that Easy!</p>
                 </clipPath>
               </defs>
               <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="30" clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
-                <path d="M226 15v60c0 16.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30" data-original="#000000" />
-              </g>
+                <path d="M226 15v60c016.568-13.432 30-30 30H76c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45ZM466 15v60c0 16.568-13.432 30-30 30H316c-16.568 0-30-13.432-30-30V15Zm-45 165c0-24.853-20.147-45-45-45s-45 20.147-45 45 20.147 45 45 45 45-20.147 45-45Zm-75 167v-50.294L286 347h-60.002L166 296.706V347h-15c-41.421 0-75 33.579-75 75s33.579 75 75 75h210c41.421 0 75-33.579 75-75s-33.579-75-75-75Zm-105 75h30m-90 0h30m90 0h30" data-original="#000000" />
+              </g> 
             </svg>
             <h3 class="text-xl font-semibold mb-3">Latest AI tools to build and scale your D2C brand</h3>
             {/* <p class="text-gray-300 group-hover:text-gray-500 text-sm">Receive a recognized certification upon completion of each course, boosting your credentials and enhancing your career opportunities.</p> */}

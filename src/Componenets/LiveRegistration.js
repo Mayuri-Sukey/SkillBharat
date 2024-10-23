@@ -22,7 +22,8 @@ const LiveRegistration = () => {
 // </button>
 
 /* From Uiverse.io by mrhyddenn */ 
- <button className='registration-button'>
+//  <button className='registration-button'>
+<button className='button-live'>
   <a> Live Registration: {counter}</a>
 </button> 
 
