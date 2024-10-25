@@ -1403,7 +1403,7 @@ Become a Certified Dropshipping Expert</h2>
   >
     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
       <h2 className="text-lg font-medium text-gray-900">
-      Are there any pre-requisites to attend this workshop?
+      What should I be prepared with before the workshop starts?
       </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -1423,7 +1423,7 @@ Become a Certified Dropshipping Expert</h2>
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-    You just need an interest in the world of Marketing, AI, or Meta AI. No prior knowledge about any software is required.
+    Make sure you came 10 mins before the scheduled time and have a simple notebook and pen to write the important points you find during the workshop.
     </p>
   </details>
 
@@ -1432,7 +1432,7 @@ Become a Certified Dropshipping Expert</h2>
   >
     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
       <h2 className="text-lg font-medium text-gray-900">
-      Is it a certified workshop?      </h2>
+      I made the payment but didn't receive any email?      </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
         <svg
@@ -1451,7 +1451,7 @@ Become a Certified Dropshipping Expert</h2>
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-    Yes! it is Skill Bharat certified workshop.
+    Please write to us at hello@zeroToHero & our awesome support team will get back to you as  soon as possible.
     </p>
   </details>
 
@@ -1460,7 +1460,7 @@ Become a Certified Dropshipping Expert</h2>
   >
     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
       <h2 className="text-lg font-medium text-gray-900">
-      Do you get notes & assignments to practice?
+      when is the workshop?
        </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -1480,7 +1480,7 @@ Become a Certified Dropshipping Expert</h2>
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-    Absolutely. It is a completely hands-on Masterclass where you will also get notes, reference material & assignments for your future reference.    </p>
+    The workshop is from october 27,2024 11:0 AM.    </p>
   </details>
 
   <details
@@ -1488,7 +1488,7 @@ Become a Certified Dropshipping Expert</h2>
   >
     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
       <h2 className="text-lg font-medium text-gray-900">
-      Is there any age limit for the workshop?
+      Will this be live ?
        </h2>
 
       <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -1508,7 +1508,63 @@ Become a Certified Dropshipping Expert</h2>
     </summary>
 
     <p className="mt-4 leading-relaxed text-gray-700">
-    No, there is no age limit. I understand that technology might scare some people especially if you are elder & more experienced, however, the workshop will cover tools that you will easily be able to learn, master & use without really being a tech-expert or learning coding.   </p>
+   It is a completely live workshop.   </p>
+  </details>
+  
+  <details
+    className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+  >
+    <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+      <h2 className="text-lg font-medium text-gray-900">
+      Is it a certified workshopo?
+       </h2>
+
+      <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </span>
+    </summary>
+
+    <p className="mt-4 leading-relaxed text-gray-700">
+   Absolutely. You will be certified.   </p>
+  </details>
+
+  <details
+    className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+  >
+    <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+      <h2 className="text-lg font-medium text-gray-900">
+      Will it be recorded ?
+       </h2>
+
+      <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </span>
+    </summary>
+
+    <p className="mt-4 leading-relaxed text-gray-700">
+   No, it won't be recorded.   </p>
   </details>
 </div>
 </div>
