@@ -37,6 +37,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import Social from './Social'
 import LiveRegistration from './LiveRegistration'
 import certificate from "../Assets/CERTIFICATE.jpg"
+import Footer from './Footer';
 
 
 const getFormattedDate = (daysToAdd) => {
@@ -1580,7 +1581,7 @@ Become a Certified Dropshipping Expert</h2>
 </section>   
 
 
-
+<Footer/>
 
     </>
   )

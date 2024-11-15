@@ -343,8 +343,8 @@
 /* whatsapp */
 .scroll_top{
   position: fixed;
-  right: 6px;
-  bottom:30px;
+  right: 10px;
+  bottom:-20px;
   z-index: 99;
   cursor:pointer;
   height: 7.5rem;
@@ -978,4 +978,21 @@
     letter-spacing: 0px
    
   }
+}
+
+
+/* modal */
+/* .modal-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 999;
+} */
+
+.blurred-background {
+  filter: blur(10px);
+  pointer-events: none; 
 }
