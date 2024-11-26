@@ -116,7 +116,7 @@ Thank you for purchasing our workshop/course at zero to hero academy / operated 
                  <p className="text-gray-600 text-sm leading-relaxed pb-3 text-justify">
          
                  If the replacement batch chosen by the candidate has a higher fee, the candidate will have to pay the differential amount. 
-If the replacement batch chosen by the candidate has a lower fee, a credit note will be issued to the candidate for the differential amount. This credit note can be utilized as part / full payment of any other course offered by we value soft. 
+If the replacement batch chosen by the candidate has a lower fee, a credit note will be issued in 7 days to the candidate for the differential amount. This credit note can be utilized as part / full payment of any other course offered by we value soft. 
                  </p>
 
                  <p className="text-gray-600 text-sm leading-relaxed pb-3 text-justify">

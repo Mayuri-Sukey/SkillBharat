@@ -74,7 +74,7 @@ const Footer = () => {
 
         <hr class="my-6 border-gray-500" />
 
-        <p class='text-center text-gray-300 text-base'>© Royals Webtech  pvt ltd.</p>
+        <p class='text-center text-gray-300 text-base'> Copyright © 2024 . All rights reserved by Royals Webtech  </p>
       </div>
     </footer>
     </>
