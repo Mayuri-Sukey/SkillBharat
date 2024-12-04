@@ -121,7 +121,7 @@ If the replacement batch chosen by the candidate has a lower fee, a credit note 
 
                  <p className="text-gray-600 text-sm leading-relaxed pb-3 text-justify">
          
-                 If you have any additional questions or would like to request a batch change or candidate name transfer, feel free to contact us on  <a href="mailto:hello@zerotoheroacademy.com"  style={{ color: 'blue', fontWeight: 'bold' }}>hello@zerotoheroacademy.com</a>.
+                 If you have any additional questions or would like to request a batch change or candidate name transfer, feel free to contact us on  <a href="mailto:hello@zerotoheroacademy.com"  style={{ color: 'blue', fontWeight: 'bold' }}>http://zerotoheroacademy.co.in/</a>.
          </p>
 
          <p className="text-gray-600 text-sm leading-relaxed pb-3 text-justify">

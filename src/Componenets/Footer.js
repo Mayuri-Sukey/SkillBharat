@@ -35,7 +35,7 @@ const Footer = () => {
         <div class="flex flex-wrap items-center sm:justify-between max-sm:flex-col gap-6">
           <div>
             {/* <a href='javascript:void(0)'><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-44 ' /></a> */}
-            <p className='text-gray-300 text-base'>Buisness operated by we values soft pvt ltd.</p>
+            <p className='text-gray-300 text-base'>Buisness Operated by We Values Soft Pvt Ltd.</p>
           </div>
 
           <ul class="flex items-center justify-center flex-wrap gap-y-2 md:justify-end space-x-6 mr-4s">
