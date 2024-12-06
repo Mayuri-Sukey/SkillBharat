@@ -1,39 +1,44 @@
-
 import React, { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Form = () => {
   const [name, setName] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
   const [amount, setAmount] = useState("1");
 
+const navigate = useNavigate()
   const handlePayment = async (e) => {
     e.preventDefault();
-
+  
     const data = {
       name,
       mobileNumber,
       amount,
     };
-
+  
     console.log("data", data);
-
+  
     try {
-      const response = await axios.post(
-        "https://phonepayphonepayintegration.vercel.app/create-order",
-        data
-      );
+      const response = await axios.post("https://phonepayphonepayintegration.vercel.app/create-order", data);
       console.log(response.data);
+  
       if (response.data?.url) {
-        window.location.href = response.data.url;
+        console.log(response.data);
+        navigate("/payment-success")
+        // window.location.href = response.data.url;
+      } else if (response.data?.status === "success") { 
+        // window.location.href = "/payment-success";
+        // navigate("/payment-success")
       } else {
-        console.error("Invalid response from server");
+        window.location.href = "/payment-failure";
       }
     } catch (error) {
       console.error("Error in payment", error);
+      window.location.href = "/payment-failure"; 
     }
   };
-
+  
   return (
     <section className="min-h-screen bg-gradient-to-b from-indigo-900 to-gray-900 text-white">
       <div className="mx-auto max-w-screen-lg px-4 pt-16">
@@ -89,7 +94,6 @@ const Form = () => {
                   />
                 </div>
               </div>
-
               <div>
                 <label
                   htmlFor="amount"
@@ -103,7 +107,6 @@ const Form = () => {
                     name="amount"
                     type="number"
                     value={amount}
-                    // onChange={(e) => setAmount(e.target.value)}
                     required
                     className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 text-black"
                   />

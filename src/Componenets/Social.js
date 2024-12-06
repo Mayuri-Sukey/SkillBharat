@@ -1,9 +1,8 @@
 import React from 'react';
-import { FaWhatsapp } from "react-icons/fa"; // Ensure the correct import path
 import whatsapp from "../Assets/whatsapp.webp";
 
 const Social = () => {
-    const phoneNumber = "919552767463"; // International format without spaces or special characters
+    const phoneNumber = "919552767463";
 
     return (
         <div className='scroll_top'>
