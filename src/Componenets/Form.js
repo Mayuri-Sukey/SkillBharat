@@ -7,7 +7,6 @@ const Form = () => {
   const [mobileNumber, setMobileNumber] = useState("");
   const [amount, setAmount] = useState("1");
 
-const navigate = useNavigate()
   const handlePayment = async (e) => {
     e.preventDefault();
   
@@ -24,18 +23,13 @@ const navigate = useNavigate()
       console.log(response.data);
   
       if (response.data?.url) {
-        console.log(response.data);
-        navigate("/payment-success")
-        // window.location.href = response.data.url;
-      } else if (response.data?.status === "success") { 
-        // window.location.href = "/payment-success";
-        // navigate("/payment-success")
+      
+        window.location.href = response.data.url;
       } else {
-        window.location.href = "/payment-failure";
+        console.error("Invalid response from server");
       }
     } catch (error) {
       console.error("Error in payment", error);
-      window.location.href = "/payment-failure"; 
     }
   };
   
